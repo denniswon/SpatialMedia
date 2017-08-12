@@ -1,0 +1,6 @@
+main.o: main.cpp parser.h metadata_utils.h third_party/mxml-2.10/mxml.h \
+ mpeg/constants.h
+metadata_utils.o: metadata_utils.cpp mpeg/constants.h \
+ mpeg/mpeg4_container.h mpeg/container.h mpeg/box.h mpeg/sa3d.h \
+ metadata_utils.h third_party/mxml-2.10/mxml.h parser.h
+parser.o: parser.cpp parser.h
