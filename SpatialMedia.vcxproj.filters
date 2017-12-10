@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="Header Files\mpeg">
+      <UniqueIdentifier>{423b9978-a076-4cea-9e7f-e86f1fe7a513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mpeg">
+      <UniqueIdentifier>{732c1fd7-cda4-46c5-8c3f-089dc93f7b3a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -25,16 +31,16 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="mpeg\box.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\mpeg</Filter>
     </ClCompile>
     <ClCompile Include="mpeg\container.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\mpeg</Filter>
     </ClCompile>
     <ClCompile Include="mpeg\mpeg4_container.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\mpeg</Filter>
     </ClCompile>
     <ClCompile Include="mpeg\sa3d.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\mpeg</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -45,25 +51,19 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="mpeg\box.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\mpeg</Filter>
     </ClInclude>
     <ClInclude Include="mpeg\constants.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\mpeg</Filter>
     </ClInclude>
     <ClInclude Include="mpeg\container.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\mpeg</Filter>
     </ClInclude>
     <ClInclude Include="mpeg\mpeg4_container.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\mpeg</Filter>
     </ClInclude>
     <ClInclude Include="mpeg\sa3d.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="getopt.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="mpeg\endian.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\mpeg</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
